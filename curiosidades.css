@@ -1,0 +1,491 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #060D27;
+    font-family: "montagu slab", serif;
+    color: white;
+
+    width: 100%;
+    min-height: 100vh;
+    margin: 55px auto 0;
+    padding: 55px 40px 0px;
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 110px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Montagu Slab", serif;
+    font-size: 1.6rem;
+}
+
+.menu ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+
+    display: inline-block;
+    transition: ease-in-out 0.4s;
+    font-size: 1.6rem;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.introducao {
+    text-align: center;
+    margin-top: 140px;
+
+    h1 {
+        font-size: 70px;
+        font-weight: 800;
+        font-family: "Baloo Bhai 2", cursive;
+    }
+
+    h2 {
+        color: #1CBBC0;
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+
+.curiosidades {
+    margin-top: 140px;
+}
+
+.titulo-curiosidades {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    font-family: "Baloo Bhai 2", cursive;
+
+}
+
+.titulo-curiosidades h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px 30px;
+    padding: 0 5rem;
+}
+
+.card {
+    min-height: 225px;
+    border: 2px solid #20baff;
+    border-radius: 20px;
+    background: #0D2E4B;
+    padding: 30px 25px;
+    text-align: center;
+
+    h3 {
+        font-size: 23px;
+        margin-bottom: 15px;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 1.35;
+        font-weight: 250;
+    }
+}
+
+.noticias {
+    margin-top: 140px;
+    padding-bottom: 60px;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-left: 15px;
+        margin-bottom: 25px;
+        font-family: "Baloo Bhai 2", cursive;
+
+        font-size: 70px;
+        font-weight: 800;
+    }
+}
+
+.cards-noticias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 0 5rem;
+}
+
+.noticia {
+    background: #0D2E4B;
+    border-radius: 15px;
+
+    img {
+        width: 100%;
+        height: 265px;
+        object-fit: cover;
+        display: block;
+        border-radius: 15px 15px 0 0;
+    }
+
+}
+
+.conteudo-noticia {
+    padding: 12px 15px 20px;
+
+    .data {
+        color: #67CAFF;
+        font-size: 19px;
+        font-family: "Kite One", sans-serif;
+        margin-bottom: 19px;
+        font-weight: 200;
+
+    }
+
+    h2 {
+        font-family: "inter", sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #67CAFF;
+        font-family: "inter", sans-serif;
+        font-size: 23px;
+        line-height: 1.2;
+    }
+}
+
+.ecossistemas {
+    margin-top: 90px;
+    padding: 0 5rem 0 5rem;
+}
+
+
+.titulo-ecossistemas {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: -4rem;
+    margin-bottom: 25px;
+    font-family: "Baloo Bhai 2", cursive;
+}
+
+.titulo-ecossistemas h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.ecossistema {
+    width: 100%;
+    height: 255px;
+    display: flex;
+    background: #0D2E4B;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.imagem-ecossistema {
+    width: 78%;
+    height: 255px;
+}
+
+.imagem-ecossistema img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.texto-ecossistema {
+    height: 100%;
+    padding: 40px 30px;
+    color: white;
+    font-family: "inter", sans-serif;
+}
+
+.texto-ecossistema h2 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.texto-ecossistema p {
+    color: #C4D8E5;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.texto-ecossistema ul {
+    padding-left: 18px;
+    color: #C4D8E5;
+}
+
+.texto-ecossistema li {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.coral .imagem-ecossistema {
+    order: 1;
+}
+
+.coral .texto-ecossistema {
+    order: 2;
+}
+
+.manguezal .texto-ecossistema {
+    order: 1;
+}
+
+.manguezal .imagem-ecossistema {
+    order: 2;
+}
+
+.kelp .imagem-ecossistema {
+    order: 1;
+}
+
+.kelp .texto-ecossistema {
+    order: 2;
+}
+
+.mar-profundo .texto-ecossistema {
+    order: 1;
+}
+
+.mar-profundo .imagem-ecossistema {
+    order: 2;
+}
+
+.conservacao {
+    width: 86.5%;
+    min-height: 685px;
+    margin: 100px auto 60px;
+    padding: 25px 55px 38px;
+
+    background: #123754;
+    border: 2px solid #67CAFF;
+    border-radius: 28px;
+
+    text-align: center;
+}
+
+.icone-coracao {
+    color: #67CAFF;
+    font-size: 90px;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.conservacao h1 {
+    font-family: "Baloo Bhai 2", cursive;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.subtitulo-conservacao {
+    color: #43c7ff;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-size: 25px;
+    line-height: 1.15;
+    margin-top: 2px;
+}
+
+.acoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    margin-top: 80px;
+}
+
+.acao {
+    min-height: 103px;
+    padding: 15px 25px;
+    background: #081F35;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.acao h2 {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.acao p {
+    color: #67CAFF;
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.05;
+}
+
+.ameacas {
+    margin-top: 31px;
+    padding: 17px 27px 30px;
+
+    background: #081F35;
+    border-radius: 10px;
+
+    text-align: left;
+}
+
+.ameacas>h2 {
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.lista-ameacas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    row-gap: 25px;
+}
+
+.ameaca {
+    padding: 0;
+}
+
+.ameaca h3 {
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ameaca p {
+    color: #67CAFF;
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    line-height: 1.15;
+}
+
+
+.rodape {
+    width: 100vw;
+    min-height: 480px;
+    background: #03081A;
+    margin-left: calc(50% - 50vw);
+    margin-top: 100px;
+    padding: 80px 170px 35px;
+    color: white;
+
+    background: linear-gradient(to bottom,
+            rgba(3, 8, 26, 0) 0px,
+            #03081A 130px);
+
+
+}
+
+.conteudo-rodape {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-rodape {
+    width: 250px;
+}
+
+.logo-rodape img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.logo-rodape p {
+    color: #67CAFF;
+    font-family: "Montagu Slab", serif;
+    font-size: 15px;
+    line-height: 1.25;
+    margin: 0;
+}
+
+.menu-rodape {
+    width: 150px;
+    margin-top: 55px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-rodape h2 {
+    color: #67CAFF;
+    font-family: "Montagu Slab", serif;
+    font-size: 18px;
+    margin-bottom: 7px;
+    font-weight: 800;
+}
+
+.menu-rodape a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montagu Slab", serif;
+    font-size: 15px;
+    line-height: 1.35;
+}
+
+.menu-rodape a:hover {
+    color: #67CAFF;
+}
+
+.linha-rodape {
+    width: 100%;
+    height: 1px;
+    background: #67CAFF;
+
+    margin-top: 75px;
+}
+
+.BioSea {
+    text-align: center;
+    color: white;
+    font-family: "Montagu Slab", serif;
+    font-size: 9px;
+    margin-top: 38px;
+}

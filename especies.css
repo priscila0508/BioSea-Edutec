@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #060D27;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    width: 100%;
+    min-height: 100vh;
+    margin: 55px auto 0;
+    padding: 55px 40px 0;
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    top: 110px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Montagu Slab", serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.menu ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+
+    display: inline-block;
+    transition: ease-in-out 0.4s;
+    font-size: 1.6rem;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+
+main h1 {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    font-size: 70px;
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-weight: 800;
+}
+
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px 30px;
+    padding: 0 5rem;
+}
+
+.card {
+    background-color: #0D2E4B;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 685px;
+    width: 100%;
+
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 384px;
+    object-fit: cover;
+    display: block;
+}
+
+.conteudo {
+    width: 100%;
+    height: 301px;
+    padding: 25px;
+
+    background-color: #0D2E4B;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    margin-top: -10px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo h2 {
+    margin-bottom: 14px;
+}
+
+.conteudo h3 {
+    margin-bottom: 20px;
+    font-family: "Kite One", sans-serif;
+    color: #67CAFF;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    margin-bottom: 0px;
+    line-height: 1.5;
+    color: white;
+}
+
+.conteudo p span {
+    color: #67CAFF;
+}
+
+button {
+    width: 197px;
+    height: 51px;
+
+    border: none;
+    border-radius: 20px;
+    background-color: #1C6999;
+    color: white;
+
+    font-size: 22px;
+    font-family: "Montagu Slab", serif;
+
+    cursor: pointer;
+    display: block;
+
+    margin: auto auto 0;
+
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.rodape {
+    width: 100vw;
+    min-height: 480px;
+    background: #03081A;
+    margin-left: calc(50% - 50vw);
+    margin-top: 100px;
+    padding: 80px 170px 35px;
+    color: white;
+
+    background: linear-gradient(to bottom,
+            rgba(3, 8, 26, 0) 0px,
+            #03081A 130px);
+
+
+}
+
+.conteudo-rodape {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-rodape {
+    width: 250px;
+}
+
+.logo-rodape img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.logo-rodape p {
+    color: #67CAFF;
+    font-family: "Montagu Slab", serif;
+    font-size: 15px;
+    line-height: 1.25;
+    margin: 0;
+}
+
+.menu-rodape {
+    width: 150px;
+    margin-top: 55px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-rodape h2 {
+    color: #67CAFF;
+    font-family: "Montagu Slab", serif;
+    font-size: 18px;
+    margin-bottom: 7px;
+    font-weight: 800;
+}
+
+.menu-rodape a {
+    color: white;
+    text-decoration: none;
+    font-family: "Montagu Slab", serif;
+    font-size: 15px;
+    line-height: 1.35;
+}
+
+.menu-rodape a:hover {
+    color: #67CAFF;
+}
+
+.linha-rodape {
+    width: 100%;
+    height: 1px;
+    background: #67CAFF;
+
+    margin-top: 75px;
+}
+
+.BioSea {
+    text-align: center;
+    color: white;
+    font-family: "Montagu Slab", serif;
+    font-size: 9px;
+    margin-top: 38px;
+}
