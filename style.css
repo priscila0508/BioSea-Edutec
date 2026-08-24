@@ -40,7 +40,6 @@ header {
 
     font-family: "Montagu Slab", serif;
     font-size: 1.6rem;
-    font-weight: 500;
 }
 
 .menu ul {
@@ -102,7 +101,7 @@ header {
   margin-top: 50px;
   margin-bottom: 50px;
   color: #cbd5e1;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 /* Cards de Conteúdo */
@@ -120,14 +119,14 @@ header {
 }
 
 .card-content h2 {
-  font-size: 1.3rem;
+  font-size: 30px;
   margin-bottom: 15px;
   color: #ffffff;
 }
 
 .card-content p {
   color: #94a3b8;
-  font-size: 0.82rem;
+  font-size: 19px;
   margin-bottom: 12px;
 }
 
@@ -150,7 +149,7 @@ header {
 .stats h2,
 .about-us h2 {
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 40px;
   font-weight: 700;
   margin: 60px 0 30px 0;
 }
@@ -179,10 +178,9 @@ header {
 
 .stat-box p {
   color: #94a3b8;
-  font-size: 0.78rem;
+  font-size: 17px;
 }
 
-/* Seção: Conservação dos Oceanos */
 .conservation {
   border: 1.5px solid #38bdf8;
   background-color: rgba(13, 25, 46, 0.4);
@@ -209,7 +207,7 @@ header {
 
 .conservation p {
   color: #cbd5e1;
-  font-size: 0.85rem;
+  font-size: 17px;
   max-width: 700px;
   margin: 0 auto 12px auto;
 }
@@ -231,7 +229,6 @@ header {
   opacity: 0.9;
 }
 
-/* Seção: Sobre Nós */
 .team-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -256,14 +253,13 @@ header {
 }
 
 .team-member h3 {
-  font-size: 0.88rem;
+  font-size: 17px;
   font-weight: 600;
   color: #ffffff;
 }
 
-.team-member p,
-.team-member a {
-  font-size: 0.75rem;
+.team-member p, .team-member a {
+  font-size: 17px;
   color: #ffffff;
   margin-top: 2px;
   text-decoration: none;
@@ -359,7 +355,6 @@ header {
     margin-top: 38px;
 }
 
-/* Layout responsivo para telas menores */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
