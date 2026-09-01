@@ -13,6 +13,8 @@ body {
     min-height: 100vh;
     margin: 55px auto 0;
     padding: 55px 40px 0px;
+
+     max-width: 1400px;
 }
 
 
@@ -302,7 +304,7 @@ header {
     
 
 .conservacao {
-    width: 86.5%;
+    width: 87%;
     min-height: 685px;
     margin: 100px auto 60px;
     padding: 25px 55px 38px;
