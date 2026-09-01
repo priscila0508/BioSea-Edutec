@@ -192,16 +192,17 @@ header {
 }
 
 .ecossistemas {
-    margin-top: 90px;
-    padding: 0 5rem 0 5rem;
+    width: 100%;
+    max-width: 1400px;
+    margin: 90px auto 0;
+    padding: 0 5rem;
 }
-
 
 .titulo-ecossistemas {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-left: -4rem;
+    margin-left: 0;
     margin-bottom: 25px;
     font-family: "Baloo Bhai 2", cursive;
 }
@@ -209,6 +210,7 @@ header {
 .titulo-ecossistemas h1 {
     font-size: 70px;
     font-weight: 800;
+    margin-left: -4rem;
 }
 
 .ecossistema {
@@ -222,8 +224,9 @@ header {
 }
 
 .imagem-ecossistema {
-    width: 78%;
+    width: 55%;
     height: 255px;
+    flex-shrink: 0;
 }
 
 .imagem-ecossistema img {
@@ -234,10 +237,12 @@ header {
 }
 
 .texto-ecossistema {
-    height: 100%;
+    width: 45%;
+    height: 255px;
     padding: 40px 30px;
     color: white;
     font-family: "inter", sans-serif;
+    overflow: hidden;
 }
 
 .texto-ecossistema h2 {
@@ -294,6 +299,7 @@ header {
 .mar-profundo .imagem-ecossistema {
     order: 2;
 }
+    
 
 .conservacao {
     width: 86.5%;
