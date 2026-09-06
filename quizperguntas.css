@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo Bhai 2", cursive;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #011528;
+    margin-bottom: 200px;
+    background: url('imagens/fundo-quiz.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+     
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 60px;
+    font-size: 60px;
+    padding-top: 70px;
+    font-weight: 800;
+}
+
+
+p {
+    text-align: center;
+    color: #02a2b4;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+
+
+.app {
+    background: #0A4A85;
+    width: 100%;
+    max-width: 700px;
+    margin: 90px auto 0;
+    border-radius: 19px;
+    padding: 30px;
+    background-color: #0b2853;
+    margin-top: 50px;
+    padding: 0px 30px 30px 30px;
+
+    
+}
+
+
+nav {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    gap: 40px;
+
+  
+}
+    
+
+.logo {
+     
+    width: 70px;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 70px;
+    object-fit: contain;
+}
+
+
+nav a {
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: "Baloo Bhai 2", cursive;
+
+
+}
+
+
+.app h1{
+    font-size: 35px;
+    color: aliceblue;
+    font-weight: 690;
+    border-bottom: 1px solid #c7c1c1;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+
+.quiz {
+    padding: 18px;
+
+   
+}
+
+
+.quiz h2{
+    font-size: 23px;
+    color: #e1e1e1;
+    font-weight: 600;
+    padding-bottom: 30px;
+       
+}
+
+
+.btn {
+    background: #0A4A85;
+    color: #cacacb;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #777779;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 18px;
+        
+}
+
+
+.btn:hover:not([disabled]) {
+    background: #2e376b;
+    color: #fff;
+}
+
+
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+
+.fossa {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    
+    
+}
+
+
+#botao {
+   font-family: monospace;
+    background: #073c6b;
+    color: #d5d5d6;
+    font-weight: 500;
+    width: 300px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+
+}
+
+.botao:hover {
+    background: #2e376b;
+    color: #fff;
+    cursor: pointer;
+}
