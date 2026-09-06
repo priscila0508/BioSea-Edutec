@@ -2,16 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Baloo Bhai 2", cursive;
 }
 
 body {
-    font-family: "Baloo Bhai 2", cursive;
+   
     overflow: hidden;
-    
+    font-family: "montagu slab", serif;
+    width: 100%;
+    min-height: 100vh;
+    margin: 55px auto 0;
+    padding: 55px 0px 0px;
+
+     max-width: 1400px;
 }
 
 
+header {
+    max-width: 1400px;
+    height: 120px;
+    width: 100%;
+    top: 0rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+  
+    z-index: 1000;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: "Montagu Slab", serif;
+    font-size: 1.6rem;
+}
+
+.menu ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+
+    display: inline-block;
+    transition: ease-in-out 0.4s;
+    font-size: 1.6rem;
+}
+
+.menu a:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
 
 h1 {
     color: white;
@@ -19,7 +74,7 @@ h1 {
     font-weight: 800;
     margin-bottom: 30px;
     line-height: 1.4;
-    
+    font-family: "Baloo Bhai 2", cursive;
 }
 
 
@@ -58,49 +113,6 @@ p {
 }
 
 
-header {
-    display: flex;
-    align-items: center;
-    height: 60px;
-    
-}
-
-
-.logo {
-    width: 90px;
-    height: auto;
-}
-
-
-nav {
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-items: flex-start;
-    gap: 40px;
-    margin-left: 500px;
-
-  
-}
-
-nav a {
-    margin-left: 25px;
-    color: white;
-    text-decoration: none;
-    align-items: center;
-
-}
-
-nav a:hover {
-    color: #69d8ff;
-}
-
-
 main {
     margin-top: 50px;
     margin-left: 35px;
@@ -121,7 +133,7 @@ main {
     text-decoration: none;
     font-family: Georgia, serif;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: 0.3s;
     margin-bottom: 30px;
     font-family: "Montagu Slab", serif;
@@ -133,3 +145,7 @@ main {
     transform: scale(1.03);
 }
 
+.botao a{
+    text-decoration: none;
+    color: white;
+}

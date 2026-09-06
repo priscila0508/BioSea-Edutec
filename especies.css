@@ -18,15 +18,21 @@ body {
 
 
 header {
-    height: 90px;
+    max-width: 1400px;
+    height: 120px;
+    width: 100%;
+    top: 0rem;
     display: flex;
     align-items: center;
+    position: fixed;
+    background-color: #060D27;
+    z-index: 1000;
 }
 
 .logo {
     position: absolute;
     left: 30px;
-    top: 110px;
+ 
 }
 
 .logo img {
@@ -34,10 +40,9 @@ header {
 }
 
 .menu {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 
     font-family: "Montagu Slab", serif;
     font-size: 1.6rem;
