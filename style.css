@@ -38,6 +38,7 @@ header {
 
 .logo img {
     width: 150px;
+    margin-top: 15px;
 }
 
 .menu {
@@ -73,15 +74,15 @@ header {
 }
 
 .hero {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 100px;
     margin-bottom: 10px;
 }
 
 .hero-text {
-    flex: 1.2;
+    width: 100%;
+    position: relative;
 }
 
 .hero-text h1 {
@@ -97,19 +98,17 @@ header {
     color: #1CBBC0;
 }
 
-.agua-viva-img {
-    flex: 0.8;
-    max-width: 380px;
-    width: 100%;
+.hero img {
+    position: absolute;
+    width: 450px;
     height: auto;
+    max-height: none;
     object-fit: contain;
-    filter: drop-shadow(0 0 20px rgba(28, 187, 192, 0.6)); 
-    transition: transform 0.3s ease;
+
+    right: -30px;
+    top: 95px;
 }
 
-.agua-viva-img:hover {
-    transform: scale(1.03);
-}
 
 .intro-banner {
     background-color: #1C3751;
