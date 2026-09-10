@@ -177,6 +177,11 @@ button:hover {
     transform: scale(1.05);
 }
 
+button a{
+    text-decoration: none;
+    color: white;
+}
+
 .card:hover {
     transform: scale(1.05);
 }

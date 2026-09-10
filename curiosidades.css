@@ -14,9 +14,8 @@ body {
     margin: 55px auto 0;
     padding: 55px 40px 0px;
 
-     max-width: 1400px;
+    max-width: 1400px;
 }
-
 
 header {
     height: 120px;
@@ -310,7 +309,6 @@ header {
 .mar-profundo .imagem-ecossistema {
     order: 2;
 }
-    
 
 .conservacao {
     width: 87%;
