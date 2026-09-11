@@ -17,6 +17,10 @@ body {
     max-width: 1400px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     height: 120px;
     width: 100vw;

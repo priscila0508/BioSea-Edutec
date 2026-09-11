@@ -16,6 +16,9 @@ body {
     padding: 30px 24px 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 header {
     height: 120px;
