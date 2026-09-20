@@ -192,3 +192,59 @@ header {
     color: #fff;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#explanation-box {
+    display: none; 
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+    text-align: left; 
+    background-color: #041830; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+    border-left: 8px solid transparent; 
+    animation: slideUp 0.4s ease-out;
+}
+
+#explanation-box h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+     
+}
+
+#explanation-box p {
+    color: #cbd5e1; 
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5; 
+}
+
+
+.box-correct {
+    border-left-color: #2ecc71;
+}
+
+.box-wrong {
+    border-left-color: #e74c3c;
+}
+
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
