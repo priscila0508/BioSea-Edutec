@@ -24,7 +24,7 @@ const questions = [
     },
     {
         question: "Os polvos são conhecidos por sua inteligência. Quantos corações um polvo possui?",
-        image: "imagens/polvo-perguntas.jpeg",
+        image: "imagens/polvo-perguntas.png",
         answers: [
             { text: "A - 1", correct: false },
             { text: "B - 2", correct: false },
