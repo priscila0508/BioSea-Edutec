@@ -64,7 +64,7 @@ header {
 }
 
 .logo img {
-    width: 150px;
+    width: 120px;
     margin-top: 15px;
 }
 
@@ -192,20 +192,6 @@ header {
     color: #fff;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #explanation-box {
     display: none; 
